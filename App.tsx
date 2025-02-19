@@ -1,8 +1,8 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import HomeScreen from "./screens/home"; // Verifique se o caminho está correto
-import WeatherScreen from "./screens/index"; // Verifique se o caminho está correto
+import HomeScreen from "./app/home"; // Verifique se o caminho está correto
+import WeatherScreen from "./app/index"; // Verifique se o caminho está correto
 
 // Tipo para as telas da navegação
 type RootStackParamList = {
