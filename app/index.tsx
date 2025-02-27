@@ -48,7 +48,7 @@ const WeatherScreen = () => {
             style={{ width: 40, height: 40, marginRight: 10 }}/>
 
           <Text style={{ fontSize: 24, fontWeight: "bold", color: "#000", fontFamily: 'Oswald' }}>
-            WeatherNow
+            ClimaNow
           </Text>
         </View>
       ),

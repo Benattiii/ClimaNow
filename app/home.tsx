@@ -17,10 +17,10 @@ const HomeScreen = ({ navigation }: any) => {
     loadFonts();
 
     navigation.setOptions({
-      title: 'WeatherNow', 
+      title: 'ClimaNow', 
       headerTitle: () => (
         <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#000', fontFamily: 'Oswald' }}>
-          WeatherNow
+          ClimaNow
         </Text>
       ),
       headerStyle: {
@@ -41,7 +41,7 @@ const HomeScreen = ({ navigation }: any) => {
         style={styles.logo}
       />
 
-      <Text style={styles.title}>Bem-vindo ao WeatherNow!</Text>
+      <Text style={styles.title}>Bem-vindo ao ClimaNow!</Text>
       <Text style={styles.subtitle}>
         Observe o clima de sua cidade e outras clicando abaixo!
       </Text>
